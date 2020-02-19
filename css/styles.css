@@ -119,6 +119,10 @@ li {
   width: 100%;
 }
 
+.sign-up-button:hover {
+  background-color: #c0d756;
+}
+
 .why-us {
   background-color: #4abebd;
   display: inline-flex;
