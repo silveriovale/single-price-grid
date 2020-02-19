@@ -1,0 +1,132 @@
+body {
+  background-color: #e5eff5;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  opacity: 0.6;
+  font-size: 0.8em;
+  font-weight: 200;
+  line-height: 1.2rem;
+}
+
+.grid {
+  border-radius: 8px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.15);
+  margin: 100px auto;
+  overflow: hidden;
+  width: 45%;
+}
+
+.top {
+  background-color: #ffffff;
+  vertical-align: middle;
+  display: flex;
+}
+
+.top-content {
+  margin: 35px;
+}
+
+.top-header {
+  margin: 0;
+  color: #2ab2af;
+  font-size: 1.5em;
+}
+
+.top-sub-header {
+  color: #c0df34;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.top-text {
+  color: #98a6bd;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+
+.bottom {
+  display: flex;
+}
+
+.subscription {
+  background-color: #2ab2af;
+  display: inline-flex;
+  width: 50%;
+}
+
+.subscription-content {
+  width: 100%;
+  margin: 35px;
+}
+
+.price-div {
+  display: flex;
+  align-items: center;
+}
+
+.price-text {
+  display: inline-flex;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.per-month {
+  opacity: 0.5;
+  display: inline-flex;
+  font-size: 0.9em;
+  font-weight: 200;
+  margin: 0 0 0 15px;
+}
+
+.sign-up-description {
+  margin: 8px 0 40px;
+  opacity: 0.8;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.sign-up-button {
+  background-color: #c0df34;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  font-size: 0.9em;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  text-decoration: none;
+  width: 100%;
+}
+
+.why-us {
+  background-color: #4abebd;
+  display: inline-flex;
+  width: 50%;
+}
+
+.why-us-content {
+  display: inline-block;
+  margin: 35px;
+  height: 50%;
+}
